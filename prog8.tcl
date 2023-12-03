@@ -12,7 +12,6 @@ set n2 [ $ns node ]
 set n3 [ $ns node ]
 set n4 [ $ns node ]
 set n5 [ $ns node ]
-set n6 [ $ns node ]
 
 $ns duplex-link $n0 $n1 1Mb 20ms DropTail
 $ns queue-limit $n0 $n1 5
